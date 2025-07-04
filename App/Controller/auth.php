@@ -111,7 +111,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $mode === 'register') {
         <?php endif; ?>
     </div>
     <div style="text-align: center; margin-top: 20px;">
-        <a href="../../Public/index.php">العودة للصفحة الرئيسية</a>
+        <a href="../../index.php">العودة للصفحة الرئيسية</a>
     </div>
 </form>
 

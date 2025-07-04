@@ -7,6 +7,7 @@ CREATE TABLE users (
     password VARCHAR(255) NOT NULL,
     role ENUM('admin', 'teacher', 'student', 'parent') NOT NULL,
     full_name VARCHAR(100),
+    is_approved BOOLEAN DEFAULT 0,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -101,4 +102,3 @@ CREATE TABLE student_achievements (
     FOREIGN KEY (achievement_id) REFERENCES achievements(id)
 );
 
-ALTER TABLE users ADD COLUMN is_approved BOOLEAN DEFAULT 0;
