@@ -1,0 +1,3 @@
+تحتاج تضيف Cron Job من لوحة السيرفر (cPanel أو غيره):
+
+*/5 * * * * php /path-to-project/scripts/notify_lessons.php

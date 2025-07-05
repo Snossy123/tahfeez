@@ -16,7 +16,7 @@
       <a href="#programs">البرامج المميزة</a>
       <a href="#features">المميزات</a>
       <a href="#contact">تواصل معنا</a>
-      <a href="App/Controller/auth.php" class="btn btn-outline">تسجيل الدخول</a>
+      <a href="App/public/login.php" class="btn btn-outline">تسجيل الدخول</a>
     </nav>
   </div>
 </header>

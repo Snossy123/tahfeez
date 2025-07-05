@@ -11,7 +11,7 @@
       لتقديم تجربة تعليمية متميزة ومتابعة دقيقة للتقدم.
     </p>
     <div class="actions">
-      <a href="App/Controller/auth.php" class="btn btn-primary">ابدأ الآن</a>
+      <a href="App/public/register.php" class="btn btn-primary">ابدأ الآن</a>
       <a href="#" class="btn btn-outline" data-bs-toggle="modal" data-bs-target="#videoModal">تعرف على المزيد</a>
     </div>
   </div>
